@@ -1,0 +1,16 @@
+<script>
+
+    let numeros = [];
+
+for (let i = 0; i < 8; i++) {
+  numeros[i] = parseInt(prompt("Digite um número:"));
+}
+
+for (let i = 0; i < 8; i++) {
+  if (numeros[i] < 0) {
+    console.log("Primeiro negativo na posição:", i);
+    break; // para quando encontrar o primeiro
+  }
+}
+
+</script>
